@@ -1,0 +1,17 @@
+<header>
+    <img src="./assets/logo.png" alt="Logo da Empresa">
+
+    <ul>
+        <li>
+            <a [routerLink]="['']">Home</a>
+        </li>
+        <li>
+            <a [routerLink]="['sobre']">Sobre</a>
+        </li>
+        <li>
+            <button type="button" (click)="toggle()">
+                <img src="./assets/{{ icon }}.png" alt="Mude o tema para escuro">
+            </button>
+        </li>
+    </ul>
+</header>
